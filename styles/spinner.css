@@ -16,6 +16,7 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+    background-color: #85144b
 }
 
 .first,
