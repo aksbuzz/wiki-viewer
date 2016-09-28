@@ -29,7 +29,7 @@
     top: 45%;
     -webkit-animation: down_anim 2s infinite ease-in-out;
     animation: down_anim 2s infinite ease-in-out;
-    background-color: #0074d9;
+    background-color: #2ECC40;
 }
 
 .second {
@@ -46,7 +46,7 @@
     50% {
         -webkit-transform: translateY(50px);
         transform: translateY(50px);
-        background-color: #B10DC9;
+        background-color: #39CCCC;
     }
 }
 
@@ -54,7 +54,7 @@
     50% {
         -webkit-transform: translateY(50px);
         transform: translateY(50px);
-        background-color: #B10DC9;
+        background-color: #39CCCC;
     }
 }
 
