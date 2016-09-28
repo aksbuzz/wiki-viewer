@@ -2,6 +2,9 @@
    Author's custom styles
    ========================================================================== */
 
+
+/* border-boxing */
+
 *,
 *::before,
 *::after {
@@ -10,4 +13,12 @@
 
 html {
     box-sizing: border-box;
+}
+
+
+/* Font Styling */
+
+body {
+    font-family: 'Scope One', serif;
+    background-color: #001f3f;
 }
