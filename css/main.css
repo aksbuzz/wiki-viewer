@@ -64,7 +64,7 @@ hr {
     background: #aaa;
 }
 
-.head span:after {
+span:after {
     content: '';
     display: inline-block;
     position: relative;
