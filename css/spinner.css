@@ -16,12 +16,12 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: #133C55;
+    background-color: #001f3f;
 }
 
 .first,
 .second {
-    width: 30px;
+    width: 20px;
     height: 3px;
     position: absolute
 }
@@ -48,12 +48,12 @@
         width: 10px;
     }
     50% {
-        -webkit-transform: translateY(-30px);
-        transform: translateY(-30px);
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
         background-color: #FFDC00;
     }
     75% {
-        width: 50px;
+        width: 30px;
     }
 }
 
@@ -62,22 +62,22 @@
         width: 10px;
     }
     50% {
-        -webkit-transform: translateY(-30px);
-        transform: translateY(-30px);
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
         background-color: #FFDC00;
     }
     75% {
-        width: 50px;
+        width: 30px;
     }
 }
 
 @-webkit-keyframes down_anim {
     25% {
-        width: 50px;
+        width: 30px;
     }
     50% {
-        -webkit-transform: translateY(30px);
-        transform: translateY(30px);
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
         background-color: #F012BE;
     }
     75% {
@@ -87,11 +87,11 @@
 
 @keyframes down_anim {
     25% {
-        width: 50px;
+        width: 30px;
     }
     50% {
-        -webkit-transform: translateY(30px);
-        transform: translateY(30px);
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
         background-color: #F012BE;
     }
     75% {

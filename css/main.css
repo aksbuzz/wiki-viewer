@@ -19,6 +19,111 @@ html {
 /* Font Styling */
 
 body {
-    font-family: 'Scope One', serif;
-    background-color: #133C55;
+    font-family: 'Arima Madurai', cursive;
+    background-color: #001f3f;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+hr {
+    width: 80%;
+    height: 1px;
+}
+
+
+/* heading */
+
+.head {
+    font-family: 'Baloo Bhai', cursive;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #aaa;
+    font-weight: 700;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/*input field */
+
+.input {
+    margin-top: 7%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.input_field {
+    font-family: 'Arima Madurai', cursive;
+    background: #003559;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: none;
+    font-size: 110%;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+    color: #aaa;
+    font-weight: 700;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border: none;
+}
+
+.input_field:focus,
+.input_field:active {
+    outline: none;
+}
+
+.buttons {
+    padding-top: 6%;
+    padding-bottom: 7%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+button {
+    margin: 1em;
+    padding: 15px 25px 15px;
+    background: #04052E;
+    color: #aaa;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover,
+button:active {
+    outline: none;
 }
