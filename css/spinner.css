@@ -27,14 +27,15 @@
 }
 
 .first {
-    top: 45%;
+    top: 48%;
     -webkit-animation: down_anim 1.5s infinite ease-in-out;
     animation: down_anim 1.5s infinite ease-in-out;
     background-color: #2ECC40;
 }
 
 .second {
-    bottom: 45% -webkit-animation: up_anim 1.5s infinite ease-in-out;
+    top: 48%;
+    -webkit-animation: up_anim 1.5s infinite ease-in-out;
     animation: up_anim 1.5s infinite ease-in-out;
     background-color: #ff4136;
 }
@@ -42,35 +43,59 @@
 
 /* KEYFRAMES */
 
-@-webkit-keyframes down_anim {
-    50% {
-        -webkit-transform: translateY(20px);
-        transform: translateY(20px);
-        background-color: #39CCCC;
-    }
-}
-
-@keyframes down_anim {
-    50% {
-        -webkit-transform: translateY(20px);
-        transform: translateY(20px);
-        background-color: #39CCCC;
-    }
-}
-
 @-webkit-keyframes up_anim {
+    25% {
+        width: 10px;
+    }
     50% {
-        -webkit-transform: translateY(-20px);
-        transform: translateY(-20px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
         background-color: #FFDC00;
+    }
+    75% {
+        width: 50px;
     }
 }
 
 @keyframes up_anim {
+    25% {
+        width: 10px;
+    }
     50% {
-        -webkit-transform: translateY(-20px);
-        transform: translateY(-20px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
         background-color: #FFDC00;
+    }
+    75% {
+        width: 50px;
+    }
+}
+
+@-webkit-keyframes down_anim {
+    25% {
+        width: 50px;
+    }
+    50% {
+        -webkit-transform: translateY(30px);
+        transform: translateY(30px);
+        background-color: #F012BE;
+    }
+    75% {
+        width: 10px;
+    }
+}
+
+@keyframes down_anim {
+    25% {
+        width: 50px;
+    }
+    50% {
+        -webkit-transform: translateY(30px);
+        transform: translateY(30px);
+        background-color: #F012BE;
+    }
+    75% {
+        width: 10px;
     }
 }
 
@@ -79,3 +104,8 @@
 
 
 /* LOADER */
+
+@media screen and (min-width:500px) {
+    @-webkit-keyframes down_anim {}
+    @keyframes down_anim {}
+}
