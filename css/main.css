@@ -56,6 +56,24 @@ hr {
     user-select: none;
 }
 
+.head h3:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #aaa;
+}
+
+.head span:after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    width: 1px;
+    height: 20px;
+    background: #aaa;
+}
+
 
 /*input field */
 
