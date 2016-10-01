@@ -16,27 +16,26 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: #85144b
+    background-color: #133C55;
 }
 
 .first,
 .second {
-    width: 50px;
-    height: 5px;
-    position: absolute;
+    width: 30px;
+    height: 3px;
+    position: absolute
 }
 
 .first {
     top: 45%;
-    -webkit-animation: down_anim 2s infinite ease-in-out;
-    animation: down_anim 2s infinite ease-in-out;
+    -webkit-animation: down_anim 1.5s infinite ease-in-out;
+    animation: down_anim 1.5s infinite ease-in-out;
     background-color: #2ECC40;
 }
 
 .second {
-    top: 55%;
-    -webkit-animation: up_anim 2s infinite ease-in-out;
-    animation: up_anim 2s infinite ease-in-out;
+    bottom: 45% -webkit-animation: up_anim 1.5s infinite ease-in-out;
+    animation: up_anim 1.5s infinite ease-in-out;
     background-color: #ff4136;
 }
 
@@ -45,32 +44,32 @@
 
 @-webkit-keyframes down_anim {
     50% {
-        -webkit-transform: translateY(50px);
-        transform: translateY(50px);
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
         background-color: #39CCCC;
     }
 }
 
 @keyframes down_anim {
     50% {
-        -webkit-transform: translateY(50px);
-        transform: translateY(50px);
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
         background-color: #39CCCC;
     }
 }
 
 @-webkit-keyframes up_anim {
     50% {
-        -webkit-transform: translateY(-50px);
-        transform: translateY(-50px);
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
         background-color: #FFDC00;
     }
 }
 
 @keyframes up_anim {
     50% {
-        -webkit-transform: translateY(-50px);
-        transform: translateY(-50px);
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
         background-color: #FFDC00;
     }
 }
